@@ -63,14 +63,14 @@ function App() {
   return(
     <>
     {/* <Router> */}
-      <Navbar title="Textutils" aboutText="About Textuitls" mode={mode}  toggleMode={toggleMode}/>
+      <Navbar title="Textutils" aboutText="About" mode={mode}  toggleMode={toggleMode}/>
       <Alert alert={alert}/>
       <div className="container my-3">
         {/* /users --> Component 1
         /users/home --> Component 2 */}
         {/* <Switch> */}
             {/* <Route exact path="/about"> */}
-              {/* <About /> */}
+              {/* <About mode={mode}/> */}
             {/* </Route>  */}
             {/* <Route path="/"> */}
               <TextForm heading="Enter your text to analyze below" mode={mode} showAlert={showAlert}/>
