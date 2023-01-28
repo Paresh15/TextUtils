@@ -1,0 +1,7 @@
+Details in form as props
+
+State == Harry
+Represents state
+
+Function based components
+Class based components
